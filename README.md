@@ -32,7 +32,7 @@ Prima di avviare il server web è necessario impostare le seguenti variabili d'a
 Le variabili d'ambiente possono essere impostate sulla macchina con il seguente comando:
 
 ```bash
-export API_KEY=broker
+export API_KEY=12345678
 export OSC_CLIENTS=127.0.0.1:8000,192.168.1.2:5555
 ```
 
