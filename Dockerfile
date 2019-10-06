@@ -2,7 +2,7 @@ FROM python:3.7-slim
 
 ENV API_KEY 1234567890
 
-COPY . /code
+COPY ./src /code
 WORKDIR /code
 
 RUN apt-get update && \
